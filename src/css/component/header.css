@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --red-dark: #810000;
+    --red-fresh: #CE1212;
+    --light: #EEEBDD;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--red-fresh);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--light);
+    border-radius: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------- Bagian Header ------------ */
+header {
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--red-fresh);
+    color: white;
+    padding: 0 2em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+/* ---------- Akhir Bagian Header ---------- */

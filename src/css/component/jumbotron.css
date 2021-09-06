@@ -1,0 +1,73 @@
+
+/*--------------- Jumbotron --------------*/
+.jumbotron {
+    background-color: var(--red-fresh);
+    padding-top: 10em;
+    overflow: hidden;
+}
+
+.banner {
+    margin-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.banner h2 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+.banner h1 {
+    font-size: 4em;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin-bottom: 5em;
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    border: 1px solid white;
+    padding: .5em 2em;
+    border-radius: 30px;
+}
+
+
+.banner a:hover {
+    background-color: var(--red-dark);
+}
+
+/*--------------- Akhir Jumbotron ----------*/
+
+
+/* Responsive Breakpoints */
+
+@media screen and (max-width: 1091px){
+    .banner {
+        margin-top: 0;
+    }
+    .banner img {
+        width: 40%;
+        margin: 1em 0 0;
+    }
+
+    .banner p {
+        margin-bottom: 3em;
+    }
+}
+
+@media screen and (max-width: 902px){
+    .poster {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .banner img {
+        width: 80%;
+    }
+}

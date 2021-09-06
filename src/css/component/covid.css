@@ -1,0 +1,73 @@
+/* ------------- Data Covid ---------------- */
+.covid {
+    background-color: var(--red-fresh);
+    overflow: hidden;
+}
+
+.covid h2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+}
+
+.covid hr {
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: var(--light);
+    margin: 1em auto 2em;
+}
+
+.covid p {
+    text-align: center;
+    color: var(--light)
+}
+
+.data-covid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3em auto;
+}
+
+.data-pusat h2,
+.data-provinsi h2 {
+    font-size: 1.5em;
+    text-transform: none;
+    text-align: center;
+    color: var(--light);
+}
+
+
+.data-provinsi select {
+    display: block;
+    width: 80%;
+    font-size: 1.2em;
+    margin: 1em auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-data-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1.5em;
+}
+
+.card-data {
+    border: 1px solid var(--red-dark);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--light);
+}
+
+.card-data > * {
+    margin: 10px 0;
+    color: var(--red-fresh )!important;
+}
+
+/* ------------- Akhir Data Covid ----------- */

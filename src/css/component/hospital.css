@@ -1,0 +1,131 @@
+
+/* ------------ Rumah Sakit ----------- */
+.rumah-sakit {
+    background-color: var(--light);
+}
+
+.rumah-sakit h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.rumah-sakit hr {
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: var(--red-fresh);
+    margin: 1em auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter-data {
+    width: 40%;
+    margin: 3em;
+}
+
+.header img {
+    width: 200px;
+    height: fit-content;
+    margin: 3em;
+}
+
+.form-control {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.form-control label,
+.form-control select {
+    display: block;
+    width: 100%;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+    padding: .2em;
+}
+
+.data-rumah-sakit {
+    margin-top: 2em;
+}
+
+.data-rumah-sakit table {
+    width: 100%;
+    margin-bottom: 1em;
+    background-color: white;
+    padding: 1em;
+    border: 2px solid var(--red-fresh);
+    border-radius: 7px;
+    
+}
+
+.contact tr td {
+    vertical-align: top;
+    padding-bottom: .5em;
+}
+
+.bed-rest {
+    border-collapse: collapse ;
+}
+
+.bed-rest th {
+    background-color: var(--red-fresh);
+    color: white;
+}
+
+
+.bed-rest th,
+.bed-rest td {
+    text-align: center;
+    border-bottom: 1px solid #666;
+    padding: 7px;
+}
+.bed-rest tr:hover {
+    background-color: var(--light);
+}
+
+/* ------------- Akhir Rumah Sakit --------- */
+
+
+/* --------- Responsive Breakpoint ------------ */
+
+@media screen and (max-width: 900px){
+    .header img {
+        width: 150px;
+    }
+
+    .filter-data {
+        width: 50%;
+    }
+}
+
+@media  screen and (max-width: 800px) {
+    .header img {
+        display: none;
+    }
+
+    .filter-data {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .data-rumah-sakit table {
+        width: 100%;
+        padding: .5em;
+        font-size: .8em;
+    }
+
+    .bed-rest th,
+    .bed-rest td {
+        padding: 3px;
+        font-size: 12px;
+    }
+
+}
